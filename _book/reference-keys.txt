@@ -1,1 +1,10 @@
 hello-world
+r-markdown
+including-plots
+setup
+introduction
+software
+packages
+software-1
+resources
+background
