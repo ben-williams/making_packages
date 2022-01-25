@@ -1,5 +1,3 @@
-background
-resources
 setup
 software
 packages

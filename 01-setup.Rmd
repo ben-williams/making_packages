@@ -1,0 +1,35 @@
+# Setup 
+
+## Software 
+This will go fastest if you download all of your needed software, place them in a folder on your desktop, then put in a request with IT. Have them install to default settings. I'll drop a line to IT that multiple people will be requesting this. 
+
+There were substantially changes with the update to `R 4.0` so make sure you have switched to at least that version and preferably update to the versions below.
+To speed things up I've downloaded all the programs [on the google drive](https://drive.google.com/drive/folders/1D0Ny63iEiOpoZNqFi4Y3UX_Q0dHxuCTN?usp=sharing)
+
+`R >= v4.1.2` https://www.r-project.org/  
+Note that you can bypass IT by using the following code (unfortunately it doesn't work for the other programs and Rstudio usually updates when R does)
+```{r, eval=FALSE}
+install.packages("installr")
+installr::installr()
+```
+[Rtools](https://cran.r-project.org/bin/windows/Rtools/rtools40.html) `v4.0.0`     
+[RStudio](https://www.rstudio.com/products/rstudio/download/#download) `>= v1.4.1717` *most current version is 20201.092+382*  
+
+Setup a [Github](https://github.com) account.
+I recommend setting up a personal account for the time being. 
+Follow this advice at [happygitwithr](https://happygitwithr.com/github-acct.html) for your username, note that the email you use for `Github` will have to match the email you configure git with.
+If you will be hosting NOAA materials here is how to setup a [NOAA approved github account](https://noaa-fisheries-integrated-toolbox.github.io/resources/onboarding/github-account/)  
+Note that you can switch between your personal and professional accounts when needed.
+
+We will be using [git](https://git-scm.com/download/win)
+If you have not used `git` before and don't have it setup on your machine follow these steps:
+
+* accept default path `C:/Program Files` 
+* configure `git` by following [happygitwithr](https://happygitwithr.com/hello-git.html) instructions.
+
+
+## Packages
+There are a number of packages we'll be regularly using so might as well load them now so we can be sure they are up to date.  
+`
+install.packages(c("bookdown", "tinytex", "knitr", devtools", "roxygen2", "testthat", tidyverse")
+`
