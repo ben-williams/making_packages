@@ -1,10 +1,5 @@
-hello-world
-r-markdown
-including-plots
+background
+resources
 setup
-introduction
 software
 packages
-software-1
-resources
-background

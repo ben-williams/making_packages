@@ -3,26 +3,28 @@ title: "Creating Rpackages and using Rmarkdown"
 author: "Ben Williams"
 site: bookdown::bookdown_site
 documentclass: book
-output:
-bookdown::gitbook: 
-    toc: true
-  #bookdown::pdf_book: default
+output: 
+  bookdown::gitbook
+
 ---
 
 # Background
 
 Materials for getting MESA into building R packages and using R markdown/bookdown.
+I'll populate this website as we go.
 
 ## Resources
 
 We will be relying heavily on [R packages](https://r-pkgs.org/index.html) and [bookdown](https://bookdown.org/yihui/bookdown/). 
 
 
-# Software 
+# Setup
+
+## Software 
 This will go fastest if you download all of your needed software, place them in a folder on your desktop, then put in a request with IT. Have them install to default settings. I'll drop a line to IT that multiple people will be requesting this. 
 
 There were substantially changes with the update to `R 4.0` so make sure you have switched to at least that version and preferably update to the versions below.
-To speed things up I've downloaded all the programs [on the goole drive](https://drive.google.com/drive/folders/1D0Ny63iEiOpoZNqFi4Y3UX_Q0dHxuCTN?usp=sharing)
+To speed things up I've downloaded all the programs [on the google drive](https://drive.google.com/drive/folders/1D0Ny63iEiOpoZNqFi4Y3UX_Q0dHxuCTN?usp=sharing)
 
 `R >= v4.1.2` https://www.r-project.org/  
 Note that you can bypass IT by using the following code (unfortunately it doesn't work for the other programs and Rstudio usually updates when R does)
