@@ -13,6 +13,19 @@ output:
 Materials for getting MESA into building R packages and using R markdown/bookdown.
 I'll populate this website as we go.
 
+## Why? {-}
+
+An oft asked question is why make an R package, often this is followed with a statement of "I'm the only one who uses this code". There are many reasons for making R packages but a short list is:
+
+ - ease of use, we tend to reuse code, if it is easily available and *documented* it is more likely to be used and kept track of
+ - R packages are simple to create
+ - forces tidy code and workflow
+ - a great way to distribute data and code associated with a paper (or assessment)
+ - does not need to be distributed to anyone
+ - allows for easy exchange and reproducibility
+ - encourages (and provides space for) good documentation (works for data, not just code)
+ 
+
 ## Resources {-}
 
 We will be relying heavily on [R packages](https://r-pkgs.org/index.html) and [bookdown](https://bookdown.org/yihui/bookdown/). 
