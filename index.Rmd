@@ -13,8 +13,6 @@ output:
 Materials for getting MESA into building R packages and using R markdown/bookdown.
 I'll populate this website as we go.
 
-## Why? {-}
-
 An oft asked question is why make an R package, often this is followed with a statement of "I'm the only one who uses this code". There are many reasons for making R packages but a short list is:
 
  - ease of use, we tend to reuse code, if it is easily available and *documented* it is more likely to be used and kept track of
