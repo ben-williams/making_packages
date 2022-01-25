@@ -31,5 +31,5 @@ If you have not used `git` before and don't have it setup on your machine follow
 ## Packages
 There are a number of packages we'll be regularly using so might as well load them now so we can be sure they are up to date.  
 `
-install.packages(c("bookdown", "tinytex", "knitr", devtools", "roxygen2", "testthat", tidyverse")
+install.packages(c("bookdown", "tinytex", "knitr", devtools", "roxygen2", "testthat", "tidyverse", "pkgdown")
 `
