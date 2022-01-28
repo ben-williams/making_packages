@@ -1,0 +1,36 @@
+# What is a package?
+
+A package can exist in five different states. 
+
+ - source
+ - bundled
+ - binary
+ - installed
+ - in-memory
+ 
+If you are creating a package or working on the code you are dealing with the source. Using `install.packages()` or `devtools::install_github()` moves a package from source, bundled, or binary states into the installed state (e.g., it is loaded on your computer). The `library()` function loads the package and makes it available for immediate use. 
+
+You've probably heard of a "source tarball" at that means is that many files have been reduced to one `.tar` and it was compressed `.gz` so you get the extension `.tar.gz` which is a bundled R package (just not in the way you are probably used to). 
+
+[More information](https://r-pkgs.org/package-structure-state.html)
+
+# Basic package
+
+Generally speaking creating involves either Rstudio or `create_package("path/to/package/pkgname")`
+
+In RStudio, do *File > New Project > New Directory > R Package*. 
+
+This creates a basic package that has a "hello world" function. 
+Really though there are only a few items needed, these are:
+
+1. An `R/` directory
+2. A DESCRIPTION file - aka metadata
+3. A NAMESPACE file - reduce conflicts w/other packages here
+
+[More information](https://r-pkgs.org/workflows101.html#creating)
+
+## What we are going to do
+
+ - Our package will be an RStudio project
+ - It will be tracked with `git`
+
