@@ -32,4 +32,4 @@ If you have not used `git` before and don't have it setup on your machine follow
 There are a number of packages we'll be regularly using so might as well load them now so we can be sure they are up to date.  
 ```{r, eval = F}
 install.packages(c("bookdown", "tinytex", "knitr", "devtools", "roxygen2", "testthat", "tidyverse", "pkgdown"))
-````
+```

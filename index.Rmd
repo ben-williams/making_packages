@@ -23,6 +23,9 @@ An oft asked question is why make an R package, often this is followed with a st
  - allows for easy exchange and reproducibility
  - encourages (and provides space for) good documentation (works for data, not just code)
  
+## What do you want? {-}
+
+What are you hoping to get out of this training?
 
 ## Resources {-}
 
